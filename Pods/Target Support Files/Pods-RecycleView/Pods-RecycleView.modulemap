@@ -1,0 +1,6 @@
+framework module Pods_RecycleView {
+  umbrella header "Pods-RecycleView-umbrella.h"
+
+  export *
+  module * { export * }
+}

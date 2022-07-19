@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183C3B59288572DF0013576A /* LCRecycleScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 183C3B50288572DE0013576A /* LCRecycleScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183C3B5A288572DF0013576A /* LCRecycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C3B51288572DE0013576A /* LCRecycleScrollView.m */; };
+		183C3B5B288572DF0013576A /* LCRecycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C3B51288572DE0013576A /* LCRecycleScrollView.m */; };
+		183C3B5C288572DF0013576A /* LCPageControlDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 183C3B53288572DE0013576A /* LCPageControlDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183C3B5D288572DF0013576A /* LCRecycleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 183C3B54288572DE0013576A /* LCRecycleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183C3B5E288572DF0013576A /* LCPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 183C3B56288572DE0013576A /* LCPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183C3B5F288572DF0013576A /* LCPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C3B57288572DE0013576A /* LCPageControl.m */; };
+		183C3B60288572DF0013576A /* LCPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C3B57288572DE0013576A /* LCPageControl.m */; };
+		183C3B61288572DF0013576A /* LCRecycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C3B58288572DF0013576A /* LCRecycleView.m */; };
+		183C3B62288572DF0013576A /* LCRecycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C3B58288572DF0013576A /* LCRecycleView.m */; };
+		18A4D57728856D04009E9ACE /* LCCardView.docc in Sources */ = {isa = PBXBuildFile; fileRef = 18A4D57628856D04009E9ACE /* LCCardView.docc */; };
+		18A4D58B28856D7E009E9ACE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4D58A28856D7E009E9ACE /* AppDelegate.m */; };
+		18A4D58E28856D7E009E9ACE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4D58D28856D7E009E9ACE /* SceneDelegate.m */; };
+		18A4D59128856D7E009E9ACE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4D59028856D7E009E9ACE /* ViewController.m */; };
+		18A4D59428856D7E009E9ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A4D59228856D7E009E9ACE /* Main.storyboard */; };
+		18A4D59628856D7F009E9ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A4D59528856D7F009E9ACE /* Assets.xcassets */; };
+		18A4D59928856D7F009E9ACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A4D59728856D7F009E9ACE /* LaunchScreen.storyboard */; };
+		18A4D59C28856D7F009E9ACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4D59B28856D7F009E9ACE /* main.m */; };
+		18E089A42886570500ADF1BE /* RecycleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E089A3288656C800ADF1BE /* RecycleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82572458DECDEB39CF742DA2 /* Pods_RecycleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C5475AF71DC6FD48B1A7EE /* Pods_RecycleView.framework */; };
+		CF0EC795B4BDC06D2E74A0BD /* Pods_RecycleViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02EF8AA730871EA6955F0573 /* Pods_RecycleViewDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02E00366D0CC23FC14266DAF /* Pods-LCCardViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCardViewDemo.release.xcconfig"; path = "Target Support Files/Pods-LCCardViewDemo/Pods-LCCardViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		02EF8AA730871EA6955F0573 /* Pods_RecycleViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecycleViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		183C3B50288572DE0013576A /* LCRecycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCRecycleScrollView.h; sourceTree = "<group>"; };
+		183C3B51288572DE0013576A /* LCRecycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCRecycleScrollView.m; sourceTree = "<group>"; };
+		183C3B53288572DE0013576A /* LCPageControlDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPageControlDelegate.h; sourceTree = "<group>"; };
+		183C3B54288572DE0013576A /* LCRecycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCRecycleView.h; sourceTree = "<group>"; };
+		183C3B56288572DE0013576A /* LCPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPageControl.h; sourceTree = "<group>"; };
+		183C3B57288572DE0013576A /* LCPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPageControl.m; sourceTree = "<group>"; };
+		183C3B58288572DF0013576A /* LCRecycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCRecycleView.m; sourceTree = "<group>"; };
+		18A4D57328856D04009E9ACE /* RecycleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RecycleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A4D57628856D04009E9ACE /* LCCardView.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LCCardView.docc; sourceTree = "<group>"; };
+		18A4D58728856D7E009E9ACE /* RecycleViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecycleViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A4D58928856D7E009E9ACE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A4D58A28856D7E009E9ACE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A4D58C28856D7E009E9ACE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		18A4D58D28856D7E009E9ACE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		18A4D58F28856D7E009E9ACE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A4D59028856D7E009E9ACE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A4D59328856D7E009E9ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A4D59528856D7F009E9ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A4D59828856D7F009E9ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A4D59A28856D7F009E9ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A4D59B28856D7F009E9ACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E089A3288656C800ADF1BE /* RecycleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecycleView.h; sourceTree = "<group>"; };
+		242CBF2A26A5B4B3A578A562 /* Pods-LCCardViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCardViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-LCCardViewDemo/Pods-LCCardViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		34FC6EF949419F6D7FF0F0D9 /* Pods-CardViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardViewDemo.release.xcconfig"; path = "Target Support Files/Pods-CardViewDemo/Pods-CardViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		610D26B84059DF7083C3B1D3 /* Pods-RecycleView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecycleView.release.xcconfig"; path = "Target Support Files/Pods-RecycleView/Pods-RecycleView.release.xcconfig"; sourceTree = "<group>"; };
+		618134E78A6573ADB8FF09D4 /* Pods-LCCardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCardView.release.xcconfig"; path = "Target Support Files/Pods-LCCardView/Pods-LCCardView.release.xcconfig"; sourceTree = "<group>"; };
+		62C5475AF71DC6FD48B1A7EE /* Pods_RecycleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecycleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		671E3AB8F5D9BC8D5BC4D877 /* Pods-RecycleView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecycleView.debug.xcconfig"; path = "Target Support Files/Pods-RecycleView/Pods-RecycleView.debug.xcconfig"; sourceTree = "<group>"; };
+		9173FABDC5DE45A3502BE926 /* Pods-RecycleViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecycleViewDemo.release.xcconfig"; path = "Target Support Files/Pods-RecycleViewDemo/Pods-RecycleViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		945DEFFDA1A05A9F60D8BFBC /* Pods-CardViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-CardViewDemo/Pods-CardViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B3A1570F994AF50D7474801E /* Pods-QLCardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLCardView.debug.xcconfig"; path = "Target Support Files/Pods-QLCardView/Pods-QLCardView.debug.xcconfig"; sourceTree = "<group>"; };
+		DD195A414A4B0B6740B0E878 /* Pods-CardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardView.release.xcconfig"; path = "Target Support Files/Pods-CardView/Pods-CardView.release.xcconfig"; sourceTree = "<group>"; };
+		E9DD4A61783EDB6250653CB6 /* Pods-CardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardView.debug.xcconfig"; path = "Target Support Files/Pods-CardView/Pods-CardView.debug.xcconfig"; sourceTree = "<group>"; };
+		F1C833DEEC2DC0A69EBA971E /* Pods-RecycleViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecycleViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-RecycleViewDemo/Pods-RecycleViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F796A396A489BD21A4417F2E /* Pods-LCCardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCardView.debug.xcconfig"; path = "Target Support Files/Pods-LCCardView/Pods-LCCardView.debug.xcconfig"; sourceTree = "<group>"; };
+		FED71681AD5A9872D2BC797B /* Pods-QLCardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLCardView.release.xcconfig"; path = "Target Support Files/Pods-QLCardView/Pods-QLCardView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A4D57028856D04009E9ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82572458DECDEB39CF742DA2 /* Pods_RecycleView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A4D58428856D7E009E9ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0EC795B4BDC06D2E74A0BD /* Pods_RecycleViewDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183C3B4F288572DE0013576A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				183C3B50288572DE0013576A /* LCRecycleScrollView.h */,
+				183C3B51288572DE0013576A /* LCRecycleScrollView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		183C3B52288572DE0013576A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				183C3B53288572DE0013576A /* LCPageControlDelegate.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		183C3B55288572DE0013576A /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				183C3B56288572DE0013576A /* LCPageControl.h */,
+				183C3B57288572DE0013576A /* LCPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		18A4D57428856D04009E9ACE /* RecycleView */ = {
+			isa = PBXGroup;
+			children = (
+				18E089A3288656C800ADF1BE /* RecycleView.h */,
+				18E089A2288656B200ADF1BE /* LCRecycleView */,
+				18A4D57628856D04009E9ACE /* LCCardView.docc */,
+			);
+			path = RecycleView;
+			sourceTree = "<group>";
+		};
+		18A4D58828856D7E009E9ACE /* RecycleViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18A4D58928856D7E009E9ACE /* AppDelegate.h */,
+				18A4D58A28856D7E009E9ACE /* AppDelegate.m */,
+				18A4D58C28856D7E009E9ACE /* SceneDelegate.h */,
+				18A4D58D28856D7E009E9ACE /* SceneDelegate.m */,
+				18A4D58F28856D7E009E9ACE /* ViewController.h */,
+				18A4D59028856D7E009E9ACE /* ViewController.m */,
+				18A4D59228856D7E009E9ACE /* Main.storyboard */,
+				18A4D59528856D7F009E9ACE /* Assets.xcassets */,
+				18A4D59728856D7F009E9ACE /* LaunchScreen.storyboard */,
+				18A4D59A28856D7F009E9ACE /* Info.plist */,
+				18A4D59B28856D7F009E9ACE /* main.m */,
+			);
+			path = RecycleViewDemo;
+			sourceTree = "<group>";
+		};
+		18E089A2288656B200ADF1BE /* LCRecycleView */ = {
+			isa = PBXGroup;
+			children = (
+				183C3B54288572DE0013576A /* LCRecycleView.h */,
+				183C3B58288572DF0013576A /* LCRecycleView.m */,
+				183C3B55288572DE0013576A /* PageControl */,
+				183C3B52288572DE0013576A /* Protocol */,
+				183C3B4F288572DE0013576A /* View */,
+			);
+			path = LCRecycleView;
+			sourceTree = "<group>";
+		};
+		18FC93F328378037007A6654 = {
+			isa = PBXGroup;
+			children = (
+				18A4D57428856D04009E9ACE /* RecycleView */,
+				18A4D58828856D7E009E9ACE /* RecycleViewDemo */,
+				18FC93FD28378037007A6654 /* Products */,
+				7939830B9DDBA5849E0355F0 /* Pods */,
+				934FFE1710EEF9B2F6B410E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18FC93FD28378037007A6654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A4D57328856D04009E9ACE /* RecycleView.framework */,
+				18A4D58728856D7E009E9ACE /* RecycleViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7939830B9DDBA5849E0355F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1570F994AF50D7474801E /* Pods-QLCardView.debug.xcconfig */,
+				FED71681AD5A9872D2BC797B /* Pods-QLCardView.release.xcconfig */,
+				F796A396A489BD21A4417F2E /* Pods-LCCardView.debug.xcconfig */,
+				618134E78A6573ADB8FF09D4 /* Pods-LCCardView.release.xcconfig */,
+				242CBF2A26A5B4B3A578A562 /* Pods-LCCardViewDemo.debug.xcconfig */,
+				02E00366D0CC23FC14266DAF /* Pods-LCCardViewDemo.release.xcconfig */,
+				E9DD4A61783EDB6250653CB6 /* Pods-CardView.debug.xcconfig */,
+				DD195A414A4B0B6740B0E878 /* Pods-CardView.release.xcconfig */,
+				945DEFFDA1A05A9F60D8BFBC /* Pods-CardViewDemo.debug.xcconfig */,
+				34FC6EF949419F6D7FF0F0D9 /* Pods-CardViewDemo.release.xcconfig */,
+				671E3AB8F5D9BC8D5BC4D877 /* Pods-RecycleView.debug.xcconfig */,
+				610D26B84059DF7083C3B1D3 /* Pods-RecycleView.release.xcconfig */,
+				F1C833DEEC2DC0A69EBA971E /* Pods-RecycleViewDemo.debug.xcconfig */,
+				9173FABDC5DE45A3502BE926 /* Pods-RecycleViewDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		934FFE1710EEF9B2F6B410E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62C5475AF71DC6FD48B1A7EE /* Pods_RecycleView.framework */,
+				02EF8AA730871EA6955F0573 /* Pods_RecycleViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18A4D56E28856D04009E9ACE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183C3B59288572DF0013576A /* LCRecycleScrollView.h in Headers */,
+				183C3B5D288572DF0013576A /* LCRecycleView.h in Headers */,
+				18E089A42886570500ADF1BE /* RecycleView.h in Headers */,
+				183C3B5E288572DF0013576A /* LCPageControl.h in Headers */,
+				183C3B5C288572DF0013576A /* LCPageControlDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18A4D57228856D04009E9ACE /* RecycleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A4D57D28856D04009E9ACE /* Build configuration list for PBXNativeTarget "RecycleView" */;
+			buildPhases = (
+				C5EE1F772E983E0FFC178B8B /* [CP] Check Pods Manifest.lock */,
+				18A4D56E28856D04009E9ACE /* Headers */,
+				18A4D56F28856D04009E9ACE /* Sources */,
+				18A4D57028856D04009E9ACE /* Frameworks */,
+				18A4D57128856D04009E9ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecycleView;
+			productName = LCCardView;
+			productReference = 18A4D57328856D04009E9ACE /* RecycleView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		18A4D58628856D7E009E9ACE /* RecycleViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A4D59F28856D7F009E9ACE /* Build configuration list for PBXNativeTarget "RecycleViewDemo" */;
+			buildPhases = (
+				D16127B73E0C4159EA8137B1 /* [CP] Check Pods Manifest.lock */,
+				18A4D58328856D7E009E9ACE /* Sources */,
+				18A4D58428856D7E009E9ACE /* Frameworks */,
+				18A4D58528856D7E009E9ACE /* Resources */,
+				6F872779DB48EE482B139966 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecycleViewDemo;
+			productName = LCCardViewDemo;
+			productReference = 18A4D58728856D7E009E9ACE /* RecycleViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FC93F428378037007A6654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					18A4D57228856D04009E9ACE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					18A4D58628856D7E009E9ACE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 18FC93F728378037007A6654 /* Build configuration list for PBXProject "RecycleView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FC93F328378037007A6654;
+			productRefGroup = 18FC93FD28378037007A6654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A4D57228856D04009E9ACE /* RecycleView */,
+				18A4D58628856D7E009E9ACE /* RecycleViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A4D57128856D04009E9ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A4D58528856D7E009E9ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A4D59928856D7F009E9ACE /* LaunchScreen.storyboard in Resources */,
+				18A4D59628856D7F009E9ACE /* Assets.xcassets in Resources */,
+				18A4D59428856D7E009E9ACE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F872779DB48EE482B139966 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecycleViewDemo/Pods-RecycleViewDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecycleViewDemo/Pods-RecycleViewDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecycleViewDemo/Pods-RecycleViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5EE1F772E983E0FFC178B8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecycleView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D16127B73E0C4159EA8137B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecycleViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A4D56F28856D04009E9ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183C3B5A288572DF0013576A /* LCRecycleScrollView.m in Sources */,
+				18A4D57728856D04009E9ACE /* LCCardView.docc in Sources */,
+				183C3B5F288572DF0013576A /* LCPageControl.m in Sources */,
+				183C3B61288572DF0013576A /* LCRecycleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A4D58328856D7E009E9ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A4D59128856D7E009E9ACE /* ViewController.m in Sources */,
+				18A4D58B28856D7E009E9ACE /* AppDelegate.m in Sources */,
+				18A4D59C28856D7F009E9ACE /* main.m in Sources */,
+				18A4D58E28856D7E009E9ACE /* SceneDelegate.m in Sources */,
+				183C3B5B288572DF0013576A /* LCRecycleScrollView.m in Sources */,
+				183C3B60288572DF0013576A /* LCPageControl.m in Sources */,
+				183C3B62288572DF0013576A /* LCRecycleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18A4D59228856D7E009E9ACE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A4D59328856D7E009E9ACE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A4D59728856D7F009E9ACE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A4D59828856D7F009E9ACE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A4D57E28856D04009E9ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 671E3AB8F5D9BC8D5BC4D877 /* Pods-RecycleView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6E7363BSKG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.demo.RecycleView;
+				PRODUCT_NAME = RecycleView;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18A4D57F28856D04009E9ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 610D26B84059DF7083C3B1D3 /* Pods-RecycleView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6E7363BSKG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.demo.RecycleView;
+				PRODUCT_NAME = RecycleView;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18A4D59D28856D7F009E9ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C833DEEC2DC0A69EBA971E /* Pods-RecycleViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6E7363BSKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecycleViewDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A4D59E28856D7F009E9ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9173FABDC5DE45A3502BE926 /* Pods-RecycleViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6E7363BSKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecycleViewDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18FC94132837803C007A6654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18FC94142837803C007A6654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A4D57D28856D04009E9ACE /* Build configuration list for PBXNativeTarget "RecycleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A4D57E28856D04009E9ACE /* Debug */,
+				18A4D57F28856D04009E9ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A4D59F28856D7F009E9ACE /* Build configuration list for PBXNativeTarget "RecycleViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A4D59D28856D7F009E9ACE /* Debug */,
+				18A4D59E28856D7F009E9ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FC93F728378037007A6654 /* Build configuration list for PBXProject "RecycleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FC94132837803C007A6654 /* Debug */,
+				18FC94142837803C007A6654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FC93F428378037007A6654 /* Project object */;
+}
