@@ -1,14 +1,16 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '9.0'
-
-source 'https://github.com/CocoaPods/Specs.git'
+# platform :ios, '9.0'
 
 target 'RecycleView' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for RecycleView
-  pod 'Masonry'
+  pod 'SnapKit'
+
+  target 'RecycleViewTests' do
+    # Pods for testing
+  end
 
 end
 
@@ -16,7 +18,7 @@ target 'RecycleViewDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for RecycleView
-  pod 'Masonry'
+  # Pods for RecycleViewDemo
+  pod 'SnapKit'
 
 end

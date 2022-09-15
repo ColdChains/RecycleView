@@ -7,280 +7,264 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		183C3B59288572DF0013576A /* LCRecycleScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 183C3B50288572DE0013576A /* LCRecycleScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		183C3B5A288572DF0013576A /* LCRecycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C3B51288572DE0013576A /* LCRecycleScrollView.m */; };
-		183C3B5B288572DF0013576A /* LCRecycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C3B51288572DE0013576A /* LCRecycleScrollView.m */; };
-		183C3B5C288572DF0013576A /* LCPageControlDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 183C3B53288572DE0013576A /* LCPageControlDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		183C3B5D288572DF0013576A /* LCRecycleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 183C3B54288572DE0013576A /* LCRecycleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		183C3B5E288572DF0013576A /* LCPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 183C3B56288572DE0013576A /* LCPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		183C3B5F288572DF0013576A /* LCPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C3B57288572DE0013576A /* LCPageControl.m */; };
-		183C3B60288572DF0013576A /* LCPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C3B57288572DE0013576A /* LCPageControl.m */; };
-		183C3B61288572DF0013576A /* LCRecycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C3B58288572DF0013576A /* LCRecycleView.m */; };
-		183C3B62288572DF0013576A /* LCRecycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C3B58288572DF0013576A /* LCRecycleView.m */; };
-		18A4D57728856D04009E9ACE /* LCCardView.docc in Sources */ = {isa = PBXBuildFile; fileRef = 18A4D57628856D04009E9ACE /* LCCardView.docc */; };
-		18A4D58B28856D7E009E9ACE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4D58A28856D7E009E9ACE /* AppDelegate.m */; };
-		18A4D58E28856D7E009E9ACE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4D58D28856D7E009E9ACE /* SceneDelegate.m */; };
-		18A4D59128856D7E009E9ACE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4D59028856D7E009E9ACE /* ViewController.m */; };
-		18A4D59428856D7E009E9ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A4D59228856D7E009E9ACE /* Main.storyboard */; };
-		18A4D59628856D7F009E9ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A4D59528856D7F009E9ACE /* Assets.xcassets */; };
-		18A4D59928856D7F009E9ACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A4D59728856D7F009E9ACE /* LaunchScreen.storyboard */; };
-		18A4D59C28856D7F009E9ACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4D59B28856D7F009E9ACE /* main.m */; };
-		18E089A42886570500ADF1BE /* RecycleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E089A3288656C800ADF1BE /* RecycleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82572458DECDEB39CF742DA2 /* Pods_RecycleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C5475AF71DC6FD48B1A7EE /* Pods_RecycleView.framework */; };
-		CF0EC795B4BDC06D2E74A0BD /* Pods_RecycleViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02EF8AA730871EA6955F0573 /* Pods_RecycleViewDemo.framework */; };
+		186D612F28D0267C0086D9AE /* RecyclePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D612E28D0267C0086D9AE /* RecyclePageControl.swift */; };
+		186D613028D030370086D9AE /* RecyclePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D612E28D0267C0086D9AE /* RecyclePageControl.swift */; };
+		186D613128D030370086D9AE /* RecycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187705D728B4BD7E00351D29 /* RecycleView.swift */; };
+		186D613228D030370086D9AE /* RecycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187705D928B4BFEB00351D29 /* RecycleScrollView.swift */; };
+		187705AC28B4BB1C00351D29 /* RecycleView.docc in Sources */ = {isa = PBXBuildFile; fileRef = 187705AB28B4BB1C00351D29 /* RecycleView.docc */; };
+		187705B228B4BB1C00351D29 /* RecycleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187705A828B4BB1C00351D29 /* RecycleView.framework */; };
+		187705B728B4BB1C00351D29 /* RecycleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187705B628B4BB1C00351D29 /* RecycleViewTests.swift */; };
+		187705B828B4BB1C00351D29 /* RecycleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 187705AA28B4BB1C00351D29 /* RecycleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		187705C628B4BB3200351D29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187705C528B4BB3200351D29 /* AppDelegate.swift */; };
+		187705CA28B4BB3200351D29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187705C928B4BB3200351D29 /* ViewController.swift */; };
+		187705CD28B4BB3200351D29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187705CB28B4BB3200351D29 /* Main.storyboard */; };
+		187705CF28B4BB3400351D29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187705CE28B4BB3400351D29 /* Assets.xcassets */; };
+		187705D228B4BB3400351D29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187705D028B4BB3400351D29 /* LaunchScreen.storyboard */; };
+		187705D828B4BD7E00351D29 /* RecycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187705D728B4BD7E00351D29 /* RecycleView.swift */; };
+		187705DA28B4BFEB00351D29 /* RecycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187705D928B4BFEB00351D29 /* RecycleScrollView.swift */; };
+		45C20777AFC046297BD671E7 /* Pods_RecycleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46938FEF13509B001A8F701A /* Pods_RecycleView.framework */; };
+		667BE6F26A2EED1CC15EFB8F /* Pods_RecycleView_RecycleViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DB678B200C74BF3BA3328F /* Pods_RecycleView_RecycleViewTests.framework */; };
+		B67A94464AEC57858827B6B2 /* Pods_RecycleViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9256AF2426E9D3CEE410533 /* Pods_RecycleViewDemo.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		187705B328B4BB1C00351D29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1877058428B4BADF00351D29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187705A728B4BB1C00351D29;
+			remoteInfo = RecycleView;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		02E00366D0CC23FC14266DAF /* Pods-LCCardViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCardViewDemo.release.xcconfig"; path = "Target Support Files/Pods-LCCardViewDemo/Pods-LCCardViewDemo.release.xcconfig"; sourceTree = "<group>"; };
-		02EF8AA730871EA6955F0573 /* Pods_RecycleViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecycleViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		183C3B50288572DE0013576A /* LCRecycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCRecycleScrollView.h; sourceTree = "<group>"; };
-		183C3B51288572DE0013576A /* LCRecycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCRecycleScrollView.m; sourceTree = "<group>"; };
-		183C3B53288572DE0013576A /* LCPageControlDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPageControlDelegate.h; sourceTree = "<group>"; };
-		183C3B54288572DE0013576A /* LCRecycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCRecycleView.h; sourceTree = "<group>"; };
-		183C3B56288572DE0013576A /* LCPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPageControl.h; sourceTree = "<group>"; };
-		183C3B57288572DE0013576A /* LCPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPageControl.m; sourceTree = "<group>"; };
-		183C3B58288572DF0013576A /* LCRecycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCRecycleView.m; sourceTree = "<group>"; };
-		18A4D57328856D04009E9ACE /* RecycleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RecycleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18A4D57628856D04009E9ACE /* LCCardView.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LCCardView.docc; sourceTree = "<group>"; };
-		18A4D58728856D7E009E9ACE /* RecycleViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecycleViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18A4D58928856D7E009E9ACE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		18A4D58A28856D7E009E9ACE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18A4D58C28856D7E009E9ACE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		18A4D58D28856D7E009E9ACE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		18A4D58F28856D7E009E9ACE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18A4D59028856D7E009E9ACE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18A4D59328856D7E009E9ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18A4D59528856D7F009E9ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18A4D59828856D7F009E9ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18A4D59A28856D7F009E9ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18A4D59B28856D7F009E9ACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18E089A3288656C800ADF1BE /* RecycleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecycleView.h; sourceTree = "<group>"; };
-		242CBF2A26A5B4B3A578A562 /* Pods-LCCardViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCardViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-LCCardViewDemo/Pods-LCCardViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		34FC6EF949419F6D7FF0F0D9 /* Pods-CardViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardViewDemo.release.xcconfig"; path = "Target Support Files/Pods-CardViewDemo/Pods-CardViewDemo.release.xcconfig"; sourceTree = "<group>"; };
-		610D26B84059DF7083C3B1D3 /* Pods-RecycleView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecycleView.release.xcconfig"; path = "Target Support Files/Pods-RecycleView/Pods-RecycleView.release.xcconfig"; sourceTree = "<group>"; };
-		618134E78A6573ADB8FF09D4 /* Pods-LCCardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCardView.release.xcconfig"; path = "Target Support Files/Pods-LCCardView/Pods-LCCardView.release.xcconfig"; sourceTree = "<group>"; };
-		62C5475AF71DC6FD48B1A7EE /* Pods_RecycleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecycleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		671E3AB8F5D9BC8D5BC4D877 /* Pods-RecycleView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecycleView.debug.xcconfig"; path = "Target Support Files/Pods-RecycleView/Pods-RecycleView.debug.xcconfig"; sourceTree = "<group>"; };
-		9173FABDC5DE45A3502BE926 /* Pods-RecycleViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecycleViewDemo.release.xcconfig"; path = "Target Support Files/Pods-RecycleViewDemo/Pods-RecycleViewDemo.release.xcconfig"; sourceTree = "<group>"; };
-		945DEFFDA1A05A9F60D8BFBC /* Pods-CardViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-CardViewDemo/Pods-CardViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		B3A1570F994AF50D7474801E /* Pods-QLCardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLCardView.debug.xcconfig"; path = "Target Support Files/Pods-QLCardView/Pods-QLCardView.debug.xcconfig"; sourceTree = "<group>"; };
-		DD195A414A4B0B6740B0E878 /* Pods-CardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardView.release.xcconfig"; path = "Target Support Files/Pods-CardView/Pods-CardView.release.xcconfig"; sourceTree = "<group>"; };
-		E9DD4A61783EDB6250653CB6 /* Pods-CardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardView.debug.xcconfig"; path = "Target Support Files/Pods-CardView/Pods-CardView.debug.xcconfig"; sourceTree = "<group>"; };
-		F1C833DEEC2DC0A69EBA971E /* Pods-RecycleViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecycleViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-RecycleViewDemo/Pods-RecycleViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		F796A396A489BD21A4417F2E /* Pods-LCCardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCardView.debug.xcconfig"; path = "Target Support Files/Pods-LCCardView/Pods-LCCardView.debug.xcconfig"; sourceTree = "<group>"; };
-		FED71681AD5A9872D2BC797B /* Pods-QLCardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLCardView.release.xcconfig"; path = "Target Support Files/Pods-QLCardView/Pods-QLCardView.release.xcconfig"; sourceTree = "<group>"; };
+		186D612E28D0267C0086D9AE /* RecyclePageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclePageControl.swift; sourceTree = "<group>"; };
+		187705A828B4BB1C00351D29 /* RecycleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RecycleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		187705AA28B4BB1C00351D29 /* RecycleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecycleView.h; sourceTree = "<group>"; };
+		187705AB28B4BB1C00351D29 /* RecycleView.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RecycleView.docc; sourceTree = "<group>"; };
+		187705B128B4BB1C00351D29 /* RecycleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecycleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187705B628B4BB1C00351D29 /* RecycleViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleViewTests.swift; sourceTree = "<group>"; };
+		187705C328B4BB3200351D29 /* RecycleViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecycleViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187705C528B4BB3200351D29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		187705C928B4BB3200351D29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		187705CC28B4BB3200351D29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187705CE28B4BB3400351D29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187705D128B4BB3400351D29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187705D328B4BB3400351D29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187705D728B4BD7E00351D29 /* RecycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleView.swift; sourceTree = "<group>"; };
+		187705D928B4BFEB00351D29 /* RecycleScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleScrollView.swift; sourceTree = "<group>"; };
+		45DB678B200C74BF3BA3328F /* Pods_RecycleView_RecycleViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecycleView_RecycleViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46938FEF13509B001A8F701A /* Pods_RecycleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecycleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECB795F1D4101E1FBB4F424 /* Pods-RecycleView-RecycleViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecycleView-RecycleViewTests.debug.xcconfig"; path = "Target Support Files/Pods-RecycleView-RecycleViewTests/Pods-RecycleView-RecycleViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7389B71E13DEE2A3D88B1BB7 /* Pods-RecycleViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecycleViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-RecycleViewDemo/Pods-RecycleViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		92C85E65B2A4A02AAB6C41B4 /* Pods-RecycleView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecycleView.debug.xcconfig"; path = "Target Support Files/Pods-RecycleView/Pods-RecycleView.debug.xcconfig"; sourceTree = "<group>"; };
+		B9256AF2426E9D3CEE410533 /* Pods_RecycleViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecycleViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DC1C2BF845B80E53838253 /* Pods-RecycleView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecycleView.release.xcconfig"; path = "Target Support Files/Pods-RecycleView/Pods-RecycleView.release.xcconfig"; sourceTree = "<group>"; };
+		D77C1603E368C4C8DEAA9F83 /* Pods-RecycleView-RecycleViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecycleView-RecycleViewTests.release.xcconfig"; path = "Target Support Files/Pods-RecycleView-RecycleViewTests/Pods-RecycleView-RecycleViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4F509A236FA37C40833CD95 /* Pods-RecycleViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecycleViewDemo.release.xcconfig"; path = "Target Support Files/Pods-RecycleViewDemo/Pods-RecycleViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18A4D57028856D04009E9ACE /* Frameworks */ = {
+		187705A528B4BB1C00351D29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82572458DECDEB39CF742DA2 /* Pods_RecycleView.framework in Frameworks */,
+				45C20777AFC046297BD671E7 /* Pods_RecycleView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18A4D58428856D7E009E9ACE /* Frameworks */ = {
+		187705AE28B4BB1C00351D29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF0EC795B4BDC06D2E74A0BD /* Pods_RecycleViewDemo.framework in Frameworks */,
+				187705B228B4BB1C00351D29 /* RecycleView.framework in Frameworks */,
+				667BE6F26A2EED1CC15EFB8F /* Pods_RecycleView_RecycleViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187705C028B4BB3200351D29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67A94464AEC57858827B6B2 /* Pods_RecycleViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		183C3B4F288572DE0013576A /* View */ = {
+		1877058328B4BADF00351D29 = {
 			isa = PBXGroup;
 			children = (
-				183C3B50288572DE0013576A /* LCRecycleScrollView.h */,
-				183C3B51288572DE0013576A /* LCRecycleScrollView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		183C3B52288572DE0013576A /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				183C3B53288572DE0013576A /* LCPageControlDelegate.h */,
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
-		183C3B55288572DE0013576A /* PageControl */ = {
-			isa = PBXGroup;
-			children = (
-				183C3B56288572DE0013576A /* LCPageControl.h */,
-				183C3B57288572DE0013576A /* LCPageControl.m */,
-			);
-			path = PageControl;
-			sourceTree = "<group>";
-		};
-		18A4D57428856D04009E9ACE /* RecycleView */ = {
-			isa = PBXGroup;
-			children = (
-				18E089A3288656C800ADF1BE /* RecycleView.h */,
-				18E089A2288656B200ADF1BE /* LCRecycleView */,
-				18A4D57628856D04009E9ACE /* LCCardView.docc */,
-			);
-			path = RecycleView;
-			sourceTree = "<group>";
-		};
-		18A4D58828856D7E009E9ACE /* RecycleViewDemo */ = {
-			isa = PBXGroup;
-			children = (
-				18A4D58928856D7E009E9ACE /* AppDelegate.h */,
-				18A4D58A28856D7E009E9ACE /* AppDelegate.m */,
-				18A4D58C28856D7E009E9ACE /* SceneDelegate.h */,
-				18A4D58D28856D7E009E9ACE /* SceneDelegate.m */,
-				18A4D58F28856D7E009E9ACE /* ViewController.h */,
-				18A4D59028856D7E009E9ACE /* ViewController.m */,
-				18A4D59228856D7E009E9ACE /* Main.storyboard */,
-				18A4D59528856D7F009E9ACE /* Assets.xcassets */,
-				18A4D59728856D7F009E9ACE /* LaunchScreen.storyboard */,
-				18A4D59A28856D7F009E9ACE /* Info.plist */,
-				18A4D59B28856D7F009E9ACE /* main.m */,
-			);
-			path = RecycleViewDemo;
-			sourceTree = "<group>";
-		};
-		18E089A2288656B200ADF1BE /* LCRecycleView */ = {
-			isa = PBXGroup;
-			children = (
-				183C3B54288572DE0013576A /* LCRecycleView.h */,
-				183C3B58288572DF0013576A /* LCRecycleView.m */,
-				183C3B55288572DE0013576A /* PageControl */,
-				183C3B52288572DE0013576A /* Protocol */,
-				183C3B4F288572DE0013576A /* View */,
-			);
-			path = LCRecycleView;
-			sourceTree = "<group>";
-		};
-		18FC93F328378037007A6654 = {
-			isa = PBXGroup;
-			children = (
-				18A4D57428856D04009E9ACE /* RecycleView */,
-				18A4D58828856D7E009E9ACE /* RecycleViewDemo */,
-				18FC93FD28378037007A6654 /* Products */,
-				7939830B9DDBA5849E0355F0 /* Pods */,
-				934FFE1710EEF9B2F6B410E9 /* Frameworks */,
+				187705A928B4BB1C00351D29 /* RecycleView */,
+				187705B528B4BB1C00351D29 /* RecycleViewTests */,
+				187705C428B4BB3200351D29 /* RecycleViewDemo */,
+				1877058D28B4BAE000351D29 /* Products */,
+				E71BEE025B83B9E35C591213 /* Pods */,
+				9875271F4B69C26866DBF9FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		18FC93FD28378037007A6654 /* Products */ = {
+		1877058D28B4BAE000351D29 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18A4D57328856D04009E9ACE /* RecycleView.framework */,
-				18A4D58728856D7E009E9ACE /* RecycleViewDemo.app */,
+				187705A828B4BB1C00351D29 /* RecycleView.framework */,
+				187705B128B4BB1C00351D29 /* RecycleViewTests.xctest */,
+				187705C328B4BB3200351D29 /* RecycleViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7939830B9DDBA5849E0355F0 /* Pods */ = {
+		187705A928B4BB1C00351D29 /* RecycleView */ = {
 			isa = PBXGroup;
 			children = (
-				B3A1570F994AF50D7474801E /* Pods-QLCardView.debug.xcconfig */,
-				FED71681AD5A9872D2BC797B /* Pods-QLCardView.release.xcconfig */,
-				F796A396A489BD21A4417F2E /* Pods-LCCardView.debug.xcconfig */,
-				618134E78A6573ADB8FF09D4 /* Pods-LCCardView.release.xcconfig */,
-				242CBF2A26A5B4B3A578A562 /* Pods-LCCardViewDemo.debug.xcconfig */,
-				02E00366D0CC23FC14266DAF /* Pods-LCCardViewDemo.release.xcconfig */,
-				E9DD4A61783EDB6250653CB6 /* Pods-CardView.debug.xcconfig */,
-				DD195A414A4B0B6740B0E878 /* Pods-CardView.release.xcconfig */,
-				945DEFFDA1A05A9F60D8BFBC /* Pods-CardViewDemo.debug.xcconfig */,
-				34FC6EF949419F6D7FF0F0D9 /* Pods-CardViewDemo.release.xcconfig */,
-				671E3AB8F5D9BC8D5BC4D877 /* Pods-RecycleView.debug.xcconfig */,
-				610D26B84059DF7083C3B1D3 /* Pods-RecycleView.release.xcconfig */,
-				F1C833DEEC2DC0A69EBA971E /* Pods-RecycleViewDemo.debug.xcconfig */,
-				9173FABDC5DE45A3502BE926 /* Pods-RecycleViewDemo.release.xcconfig */,
+				187705AA28B4BB1C00351D29 /* RecycleView.h */,
+				187705D728B4BD7E00351D29 /* RecycleView.swift */,
+				187705D928B4BFEB00351D29 /* RecycleScrollView.swift */,
+				186D612E28D0267C0086D9AE /* RecyclePageControl.swift */,
+				187705AB28B4BB1C00351D29 /* RecycleView.docc */,
 			);
-			path = Pods;
+			path = RecycleView;
 			sourceTree = "<group>";
 		};
-		934FFE1710EEF9B2F6B410E9 /* Frameworks */ = {
+		187705B528B4BB1C00351D29 /* RecycleViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				62C5475AF71DC6FD48B1A7EE /* Pods_RecycleView.framework */,
-				02EF8AA730871EA6955F0573 /* Pods_RecycleViewDemo.framework */,
+				187705B628B4BB1C00351D29 /* RecycleViewTests.swift */,
+			);
+			path = RecycleViewTests;
+			sourceTree = "<group>";
+		};
+		187705C428B4BB3200351D29 /* RecycleViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				187705C528B4BB3200351D29 /* AppDelegate.swift */,
+				187705C928B4BB3200351D29 /* ViewController.swift */,
+				187705CB28B4BB3200351D29 /* Main.storyboard */,
+				187705CE28B4BB3400351D29 /* Assets.xcassets */,
+				187705D028B4BB3400351D29 /* LaunchScreen.storyboard */,
+				187705D328B4BB3400351D29 /* Info.plist */,
+			);
+			path = RecycleViewDemo;
+			sourceTree = "<group>";
+		};
+		9875271F4B69C26866DBF9FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46938FEF13509B001A8F701A /* Pods_RecycleView.framework */,
+				45DB678B200C74BF3BA3328F /* Pods_RecycleView_RecycleViewTests.framework */,
+				B9256AF2426E9D3CEE410533 /* Pods_RecycleViewDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E71BEE025B83B9E35C591213 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92C85E65B2A4A02AAB6C41B4 /* Pods-RecycleView.debug.xcconfig */,
+				C2DC1C2BF845B80E53838253 /* Pods-RecycleView.release.xcconfig */,
+				4ECB795F1D4101E1FBB4F424 /* Pods-RecycleView-RecycleViewTests.debug.xcconfig */,
+				D77C1603E368C4C8DEAA9F83 /* Pods-RecycleView-RecycleViewTests.release.xcconfig */,
+				7389B71E13DEE2A3D88B1BB7 /* Pods-RecycleViewDemo.debug.xcconfig */,
+				E4F509A236FA37C40833CD95 /* Pods-RecycleViewDemo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18A4D56E28856D04009E9ACE /* Headers */ = {
+		187705A328B4BB1C00351D29 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				183C3B59288572DF0013576A /* LCRecycleScrollView.h in Headers */,
-				183C3B5D288572DF0013576A /* LCRecycleView.h in Headers */,
-				18E089A42886570500ADF1BE /* RecycleView.h in Headers */,
-				183C3B5E288572DF0013576A /* LCPageControl.h in Headers */,
-				183C3B5C288572DF0013576A /* LCPageControlDelegate.h in Headers */,
+				187705B828B4BB1C00351D29 /* RecycleView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		18A4D57228856D04009E9ACE /* RecycleView */ = {
+		187705A728B4BB1C00351D29 /* RecycleView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18A4D57D28856D04009E9ACE /* Build configuration list for PBXNativeTarget "RecycleView" */;
+			buildConfigurationList = 187705B928B4BB1C00351D29 /* Build configuration list for PBXNativeTarget "RecycleView" */;
 			buildPhases = (
-				C5EE1F772E983E0FFC178B8B /* [CP] Check Pods Manifest.lock */,
-				18A4D56E28856D04009E9ACE /* Headers */,
-				18A4D56F28856D04009E9ACE /* Sources */,
-				18A4D57028856D04009E9ACE /* Frameworks */,
-				18A4D57128856D04009E9ACE /* Resources */,
+				E9A6207F45E0E03A4E4645DE /* [CP] Check Pods Manifest.lock */,
+				187705A328B4BB1C00351D29 /* Headers */,
+				187705A428B4BB1C00351D29 /* Sources */,
+				187705A528B4BB1C00351D29 /* Frameworks */,
+				187705A628B4BB1C00351D29 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RecycleView;
-			productName = LCCardView;
-			productReference = 18A4D57328856D04009E9ACE /* RecycleView.framework */;
+			productName = RecycleView;
+			productReference = 187705A828B4BB1C00351D29 /* RecycleView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		18A4D58628856D7E009E9ACE /* RecycleViewDemo */ = {
+		187705B028B4BB1C00351D29 /* RecycleViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18A4D59F28856D7F009E9ACE /* Build configuration list for PBXNativeTarget "RecycleViewDemo" */;
+			buildConfigurationList = 187705BC28B4BB1C00351D29 /* Build configuration list for PBXNativeTarget "RecycleViewTests" */;
 			buildPhases = (
-				D16127B73E0C4159EA8137B1 /* [CP] Check Pods Manifest.lock */,
-				18A4D58328856D7E009E9ACE /* Sources */,
-				18A4D58428856D7E009E9ACE /* Frameworks */,
-				18A4D58528856D7E009E9ACE /* Resources */,
-				6F872779DB48EE482B139966 /* [CP] Embed Pods Frameworks */,
+				2F230AE1636E9EDB13265639 /* [CP] Check Pods Manifest.lock */,
+				187705AD28B4BB1C00351D29 /* Sources */,
+				187705AE28B4BB1C00351D29 /* Frameworks */,
+				187705AF28B4BB1C00351D29 /* Resources */,
+				50986D3534B863286EF72842 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187705B428B4BB1C00351D29 /* PBXTargetDependency */,
+			);
+			name = RecycleViewTests;
+			productName = RecycleViewTests;
+			productReference = 187705B128B4BB1C00351D29 /* RecycleViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187705C228B4BB3200351D29 /* RecycleViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187705D428B4BB3400351D29 /* Build configuration list for PBXNativeTarget "RecycleViewDemo" */;
+			buildPhases = (
+				44B848763B6309B50B884E6D /* [CP] Check Pods Manifest.lock */,
+				187705BF28B4BB3200351D29 /* Sources */,
+				187705C028B4BB3200351D29 /* Frameworks */,
+				187705C128B4BB3200351D29 /* Resources */,
+				8733E13F5057F0041A67CD38 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RecycleViewDemo;
-			productName = LCCardViewDemo;
-			productReference = 18A4D58728856D7E009E9ACE /* RecycleViewDemo.app */;
+			productName = RecycleViewDemo;
+			productReference = 187705C328B4BB3200351D29 /* RecycleViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18FC93F428378037007A6654 /* Project object */ = {
+		1877058428B4BADF00351D29 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					18A4D57228856D04009E9ACE = {
+					187705A728B4BB1C00351D29 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
-					18A4D58628856D7E009E9ACE = {
+					187705B028B4BB1C00351D29 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					187705C228B4BB3200351D29 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 18FC93F728378037007A6654 /* Build configuration list for PBXProject "RecycleView" */;
+			buildConfigurationList = 1877058728B4BADF00351D29 /* Build configuration list for PBXProject "RecycleView" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -288,56 +272,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 18FC93F328378037007A6654;
-			productRefGroup = 18FC93FD28378037007A6654 /* Products */;
+			mainGroup = 1877058328B4BADF00351D29;
+			productRefGroup = 1877058D28B4BAE000351D29 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18A4D57228856D04009E9ACE /* RecycleView */,
-				18A4D58628856D7E009E9ACE /* RecycleViewDemo */,
+				187705A728B4BB1C00351D29 /* RecycleView */,
+				187705B028B4BB1C00351D29 /* RecycleViewTests */,
+				187705C228B4BB3200351D29 /* RecycleViewDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18A4D57128856D04009E9ACE /* Resources */ = {
+		187705A628B4BB1C00351D29 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18A4D58528856D7E009E9ACE /* Resources */ = {
+		187705AF28B4BB1C00351D29 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A4D59928856D7F009E9ACE /* LaunchScreen.storyboard in Resources */,
-				18A4D59628856D7F009E9ACE /* Assets.xcassets in Resources */,
-				18A4D59428856D7E009E9ACE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187705C128B4BB3200351D29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187705D228B4BB3400351D29 /* LaunchScreen.storyboard in Resources */,
+				187705CF28B4BB3400351D29 /* Assets.xcassets in Resources */,
+				187705CD28B4BB3200351D29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6F872779DB48EE482B139966 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RecycleViewDemo/Pods-RecycleViewDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RecycleViewDemo/Pods-RecycleViewDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecycleViewDemo/Pods-RecycleViewDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C5EE1F772E983E0FFC178B8B /* [CP] Check Pods Manifest.lock */ = {
+		2F230AE1636E9EDB13265639 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -352,14 +327,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RecycleView-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RecycleView-RecycleViewTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D16127B73E0C4159EA8137B1 /* [CP] Check Pods Manifest.lock */ = {
+		44B848763B6309B50B884E6D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,49 +356,119 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		50986D3534B863286EF72842 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecycleView-RecycleViewTests/Pods-RecycleView-RecycleViewTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecycleView-RecycleViewTests/Pods-RecycleView-RecycleViewTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecycleView-RecycleViewTests/Pods-RecycleView-RecycleViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8733E13F5057F0041A67CD38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecycleViewDemo/Pods-RecycleViewDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecycleViewDemo/Pods-RecycleViewDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecycleViewDemo/Pods-RecycleViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A6207F45E0E03A4E4645DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecycleView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18A4D56F28856D04009E9ACE /* Sources */ = {
+		187705A428B4BB1C00351D29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				183C3B5A288572DF0013576A /* LCRecycleScrollView.m in Sources */,
-				18A4D57728856D04009E9ACE /* LCCardView.docc in Sources */,
-				183C3B5F288572DF0013576A /* LCPageControl.m in Sources */,
-				183C3B61288572DF0013576A /* LCRecycleView.m in Sources */,
+				186D612F28D0267C0086D9AE /* RecyclePageControl.swift in Sources */,
+				187705DA28B4BFEB00351D29 /* RecycleScrollView.swift in Sources */,
+				187705D828B4BD7E00351D29 /* RecycleView.swift in Sources */,
+				187705AC28B4BB1C00351D29 /* RecycleView.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18A4D58328856D7E009E9ACE /* Sources */ = {
+		187705AD28B4BB1C00351D29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A4D59128856D7E009E9ACE /* ViewController.m in Sources */,
-				18A4D58B28856D7E009E9ACE /* AppDelegate.m in Sources */,
-				18A4D59C28856D7F009E9ACE /* main.m in Sources */,
-				18A4D58E28856D7E009E9ACE /* SceneDelegate.m in Sources */,
-				183C3B5B288572DF0013576A /* LCRecycleScrollView.m in Sources */,
-				183C3B60288572DF0013576A /* LCPageControl.m in Sources */,
-				183C3B62288572DF0013576A /* LCRecycleView.m in Sources */,
+				187705B728B4BB1C00351D29 /* RecycleViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187705BF28B4BB3200351D29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187705CA28B4BB3200351D29 /* ViewController.swift in Sources */,
+				187705C628B4BB3200351D29 /* AppDelegate.swift in Sources */,
+				186D613128D030370086D9AE /* RecycleView.swift in Sources */,
+				186D613228D030370086D9AE /* RecycleScrollView.swift in Sources */,
+				186D613028D030370086D9AE /* RecyclePageControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		187705B428B4BB1C00351D29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187705A728B4BB1C00351D29 /* RecycleView */;
+			targetProxy = 187705B328B4BB1C00351D29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		18A4D59228856D7E009E9ACE /* Main.storyboard */ = {
+		187705CB28B4BB3200351D29 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18A4D59328856D7E009E9ACE /* Base */,
+				187705CC28B4BB3200351D29 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		18A4D59728856D7F009E9ACE /* LaunchScreen.storyboard */ = {
+		187705D028B4BB3400351D29 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18A4D59828856D7F009E9ACE /* Base */,
+				187705D128B4BB3400351D29 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -431,134 +476,13 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		18A4D57E28856D04009E9ACE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 671E3AB8F5D9BC8D5BC4D877 /* Pods-RecycleView.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 6E7363BSKG;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lax.demo.RecycleView;
-				PRODUCT_NAME = RecycleView;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		18A4D57F28856D04009E9ACE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 610D26B84059DF7083C3B1D3 /* Pods-RecycleView.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 6E7363BSKG;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lax.demo.RecycleView;
-				PRODUCT_NAME = RecycleView;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		18A4D59D28856D7F009E9ACE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1C833DEEC2DC0A69EBA971E /* Pods-RecycleViewDemo.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6E7363BSKG;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RecycleViewDemo/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lax.demo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		18A4D59E28856D7F009E9ACE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9173FABDC5DE45A3502BE926 /* Pods-RecycleViewDemo.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6E7363BSKG;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RecycleViewDemo/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lax.demo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		18FC94132837803C007A6654 /* Debug */ = {
+		1877059E28B4BAE500351D29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -602,22 +526,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		18FC94142837803C007A6654 /* Release */ = {
+		1877059F28B4BAE500351D29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -655,45 +580,212 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187705BA28B4BB1C00351D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C85E65B2A4A02AAB6C41B4 /* Pods-RecycleView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.demo.RecycleView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		187705BB28B4BB1C00351D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2DC1C2BF845B80E53838253 /* Pods-RecycleView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.demo.RecycleView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		187705BD28B4BB1C00351D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ECB795F1D4101E1FBB4F424 /* Pods-RecycleView-RecycleViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.demo.RecycleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187705BE28B4BB1C00351D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D77C1603E368C4C8DEAA9F83 /* Pods-RecycleView-RecycleViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.demo.RecycleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		187705D528B4BB3400351D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7389B71E13DEE2A3D88B1BB7 /* Pods-RecycleViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6E7363BSKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecycleViewDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187705D628B4BB3400351D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F509A236FA37C40833CD95 /* Pods-RecycleViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6E7363BSKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecycleViewDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18A4D57D28856D04009E9ACE /* Build configuration list for PBXNativeTarget "RecycleView" */ = {
+		1877058728B4BADF00351D29 /* Build configuration list for PBXProject "RecycleView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18A4D57E28856D04009E9ACE /* Debug */,
-				18A4D57F28856D04009E9ACE /* Release */,
+				1877059E28B4BAE500351D29 /* Debug */,
+				1877059F28B4BAE500351D29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18A4D59F28856D7F009E9ACE /* Build configuration list for PBXNativeTarget "RecycleViewDemo" */ = {
+		187705B928B4BB1C00351D29 /* Build configuration list for PBXNativeTarget "RecycleView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18A4D59D28856D7F009E9ACE /* Debug */,
-				18A4D59E28856D7F009E9ACE /* Release */,
+				187705BA28B4BB1C00351D29 /* Debug */,
+				187705BB28B4BB1C00351D29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18FC93F728378037007A6654 /* Build configuration list for PBXProject "RecycleView" */ = {
+		187705BC28B4BB1C00351D29 /* Build configuration list for PBXNativeTarget "RecycleViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18FC94132837803C007A6654 /* Debug */,
-				18FC94142837803C007A6654 /* Release */,
+				187705BD28B4BB1C00351D29 /* Debug */,
+				187705BE28B4BB1C00351D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187705D428B4BB3400351D29 /* Build configuration list for PBXNativeTarget "RecycleViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187705D528B4BB3400351D29 /* Debug */,
+				187705D628B4BB3400351D29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 18FC93F428378037007A6654 /* Project object */;
+	rootObject = 1877058428B4BADF00351D29 /* Project object */;
 }

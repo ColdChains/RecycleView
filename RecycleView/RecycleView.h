@@ -2,14 +2,17 @@
 //  RecycleView.h
 //  RecycleView
 //
-//  Created by lax on 2022/7/19.
+//  Created by lax on 2022/8/23.
 //
 
-#ifndef RecycleView_h
-#define RecycleView_h
+#import <Foundation/Foundation.h>
+
+//! Project version number for RecycleView.
+FOUNDATION_EXPORT double RecycleViewVersionNumber;
+
+//! Project version string for RecycleView.
+FOUNDATION_EXPORT const unsigned char RecycleViewVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <RecycleView/PublicHeader.h>
 
 
-#endif /* RecycleView_h */
-
-#import "LCRecycleView.h"
-#import "LCPageControl.h"

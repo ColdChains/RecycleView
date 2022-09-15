@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-RecycleViewDemo/Pods-RecycleViewDemo-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
