@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "RecycleView"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "Similar to UICollectionView to achieve card or slider effect"
 
   # This description is used to generate tags and improve search results.
@@ -91,9 +91,10 @@ Similar to UICollectionView to achieve card or slider effect.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "RecycleView/**/*.{h,m}"
+  spec.source_files  = "RecycleView/**/*.{h,swift}"
   spec.exclude_files = "Classes/Exclude"
-
+  spec.swift_version = "5.6"
+  
   # spec.public_header_files = "Classes/**/*.h"
 
 
@@ -133,6 +134,6 @@ Similar to UICollectionView to achieve card or slider effect.
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "Masonry"
+  spec.dependency "SnapKit", "~> 4.2.0"
 
 end
