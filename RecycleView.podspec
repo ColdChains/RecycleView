@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "RecycleView"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "Similar to UICollectionView to achieve card or slider effect"
 
   # This description is used to generate tags and improve search results.
@@ -65,7 +65,7 @@ Similar to UICollectionView to achieve card or slider effect.
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "10.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
