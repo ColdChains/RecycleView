@@ -6,7 +6,7 @@ target 'RecycleView' do
   use_frameworks!
 
   # Pods for RecycleView
-  pod 'SnapKit', '~> 4.2.0'
+  pod 'SnapKit'
 
   target 'RecycleViewTests' do
     # Pods for testing
@@ -19,6 +19,6 @@ target 'RecycleViewDemo' do
   use_frameworks!
 
   # Pods for RecycleViewDemo
-  pod 'SnapKit', '~> 4.2.0'
+  pod 'SnapKit'
 
 end

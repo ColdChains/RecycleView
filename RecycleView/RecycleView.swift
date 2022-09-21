@@ -15,7 +15,7 @@ public protocol RecycleViewDelegate: UIScrollViewDelegate {
     
 }
 
-extension RecycleViewDelegate {
+public extension RecycleViewDelegate {
     
     func recycleView(_ recycleView: RecycleView, didSelectRowAt index: Int) {}
     
@@ -34,7 +34,7 @@ public protocol RecycleViewDelegateFlowlayout: RecycleViewDelegate {
     
 }
 
-extension RecycleViewDelegateFlowlayout {
+public extension RecycleViewDelegateFlowlayout {
     
     func sizeForItemInRecycleView(_ recycleView: RecycleView) -> CGSize { return CGSize() }
     
