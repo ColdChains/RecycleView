@@ -49,7 +49,7 @@ class ViewController: UIViewController {
         view.addSubview(bannerView)
         bannerView.snp.makeConstraints { make in
             make.left.right.equalToSuperview()
-            make.top.equalTo(recycleView.snp_bottom).offset(44)
+            make.top.equalTo(recycleView.snp.bottom).offset(44)
             make.height.equalTo(333)
         }
         
