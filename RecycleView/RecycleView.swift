@@ -54,8 +54,8 @@ public protocol RecycleViewDataSource: NSObjectProtocol {
 
 }
 
-open class RecycleView: UIView {
-
+extension RecycleView {
+    
     public enum Orientation {
         /// 横向
         case horizontal
@@ -71,6 +71,10 @@ open class RecycleView: UIView {
         /// 居右
         case right
     }
+    
+}
+
+open class RecycleView: UIView {
     
     weak open var delegate: RecycleViewDelegate?
 
@@ -636,7 +640,7 @@ open class RecycleView: UIView {
 
 extension RecycleView: UIScrollViewDelegate {
     
-    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    open func scrollViewDidScroll(_ scrollView: UIScrollView) {
         
         if numberOfItems == 0 {
             return
@@ -701,21 +705,21 @@ extension RecycleView: UIScrollViewDelegate {
         
     }
     
-    public func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+    open func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         stopTimer()
         delegate?.scrollViewWillBeginDragging?(scrollView)
     }
     
-    public func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+    open func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
         startTimer()
         delegate?.scrollViewDidEndDragging?(scrollView, willDecelerate: decelerate)
     }
     
-    public func scrollViewWillBeginDecelerating(_ scrollView: UIScrollView) {
+    open func scrollViewWillBeginDecelerating(_ scrollView: UIScrollView) {
         delegate?.scrollViewWillBeginDecelerating?(scrollView)
     }
     
-    public func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+    open func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         delegate?.scrollViewDidEndDecelerating?(scrollView)
     }
     
@@ -723,7 +727,7 @@ extension RecycleView: UIScrollViewDelegate {
 
 extension RecycleView: UIGestureRecognizerDelegate {
     
-    public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+    open func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
         return true
     }
     
@@ -731,7 +735,7 @@ extension RecycleView: UIGestureRecognizerDelegate {
 
 extension RecycleView: RecyclePageControlDelegate {
     
-    public func pageControlDidSelect(pageControl: UIView, atPage currentPage: Int) {
+    open func pageControlDidSelect(pageControl: UIView, atPage currentPage: Int) {
         scrollToItem(at: currentPage, animated: true)
     }
     

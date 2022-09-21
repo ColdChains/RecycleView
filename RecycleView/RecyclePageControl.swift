@@ -51,15 +51,15 @@ open class RecyclePageControl: UIPageControl {
 
 extension RecyclePageControl: RecyclePageControlDelegate {
     
-    public func pageControlSetNumberOfPages(numberOfPages: Int) {
+    open func pageControlSetNumberOfPages(numberOfPages: Int) {
         self.numberOfPages = numberOfPages
     }
     
-    public func pageControlSetCurrentPage(currentPage: Int) {
+    open func pageControlSetCurrentPage(currentPage: Int) {
         self.currentPage = currentPage
     }
     
-    public func pageControlDidSelect(pageControl: UIView, atPage currentPage: Int) {
+    open func pageControlDidSelect(pageControl: UIView, atPage currentPage: Int) {
         self.currentPage = currentPage
     }
     

@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		186D612F28D0267C0086D9AE /* RecyclePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D612E28D0267C0086D9AE /* RecyclePageControl.swift */; };
-		186D613028D030370086D9AE /* RecyclePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D612E28D0267C0086D9AE /* RecyclePageControl.swift */; };
-		186D613128D030370086D9AE /* RecycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187705D728B4BD7E00351D29 /* RecycleView.swift */; };
-		186D613228D030370086D9AE /* RecycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187705D928B4BFEB00351D29 /* RecycleScrollView.swift */; };
 		187705AC28B4BB1C00351D29 /* RecycleView.docc in Sources */ = {isa = PBXBuildFile; fileRef = 187705AB28B4BB1C00351D29 /* RecycleView.docc */; };
 		187705B228B4BB1C00351D29 /* RecycleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187705A828B4BB1C00351D29 /* RecycleView.framework */; };
 		187705B728B4BB1C00351D29 /* RecycleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187705B628B4BB1C00351D29 /* RecycleViewTests.swift */; };
@@ -440,9 +437,6 @@
 			files = (
 				187705CA28B4BB3200351D29 /* ViewController.swift in Sources */,
 				187705C628B4BB3200351D29 /* AppDelegate.swift in Sources */,
-				186D613128D030370086D9AE /* RecycleView.swift in Sources */,
-				186D613228D030370086D9AE /* RecycleScrollView.swift in Sources */,
-				186D613028D030370086D9AE /* RecyclePageControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
