@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180D8F6D28DC03B500CBE0D7 /* RecyclePageControlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D8F6C28DC03B500CBE0D7 /* RecyclePageControlProtocol.swift */; };
 		186D612F28D0267C0086D9AE /* RecyclePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D612E28D0267C0086D9AE /* RecyclePageControl.swift */; };
 		187705AC28B4BB1C00351D29 /* RecycleView.docc in Sources */ = {isa = PBXBuildFile; fileRef = 187705AB28B4BB1C00351D29 /* RecycleView.docc */; };
 		187705B228B4BB1C00351D29 /* RecycleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187705A828B4BB1C00351D29 /* RecycleView.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180D8F6C28DC03B500CBE0D7 /* RecyclePageControlProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclePageControlProtocol.swift; sourceTree = "<group>"; };
 		186D612E28D0267C0086D9AE /* RecyclePageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclePageControl.swift; sourceTree = "<group>"; };
 		187705A828B4BB1C00351D29 /* RecycleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RecycleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		187705AA28B4BB1C00351D29 /* RecycleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecycleView.h; sourceTree = "<group>"; };
@@ -90,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180D8F6B28DC039A00CBE0D7 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				186D612E28D0267C0086D9AE /* RecyclePageControl.swift */,
+				180D8F6C28DC03B500CBE0D7 /* RecyclePageControlProtocol.swift */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
 		1877058328B4BADF00351D29 = {
 			isa = PBXGroup;
 			children = (
@@ -118,7 +129,7 @@
 				187705AA28B4BB1C00351D29 /* RecycleView.h */,
 				187705D728B4BD7E00351D29 /* RecycleView.swift */,
 				187705D928B4BFEB00351D29 /* RecycleScrollView.swift */,
-				186D612E28D0267C0086D9AE /* RecyclePageControl.swift */,
+				180D8F6B28DC039A00CBE0D7 /* PageControl */,
 				187705AB28B4BB1C00351D29 /* RecycleView.docc */,
 			);
 			path = RecycleView;
@@ -420,6 +431,7 @@
 				187705DA28B4BFEB00351D29 /* RecycleScrollView.swift in Sources */,
 				187705D828B4BD7E00351D29 /* RecycleView.swift in Sources */,
 				187705AC28B4BB1C00351D29 /* RecycleView.docc in Sources */,
+				180D8F6D28DC03B500CBE0D7 /* RecyclePageControlProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

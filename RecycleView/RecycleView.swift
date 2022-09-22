@@ -47,10 +47,10 @@ public extension RecycleViewDelegateFlowlayout {
 public protocol RecycleViewDataSource: NSObjectProtocol {
 
     /// 返回Cell的数量
-    func numberOfItemsInRecycleView(recycleView:RecycleView) -> Int
+    func numberOfItemsInRecycleView(_ recycleView: RecycleView) -> Int
 
     /// 返回Cell样式
-    func recycleView(recycleView: RecycleView, cellForItemAtIndex index: Int) -> UIView?
+    func recycleView(_ recycleView: RecycleView, cellForItemAt index: Int) -> UIView?
 
 }
 
@@ -96,7 +96,7 @@ open class RecycleView: UIView {
     /// 总页数
     open var numberOfItems = 0 {
         didSet {
-            pageControl?.pageControlSetNumberOfPages(numberOfPages: numberOfItems)
+            pageControl?.recyclePageControlSetNumberOfPages(numberOfItems)
         }
     }
 
@@ -108,7 +108,7 @@ open class RecycleView: UIView {
             } else {
                 scrollView.isPagingEnabled = true
             }
-            pageControl?.pageControlSetCurrentPage(currentPage: currentIndex)
+            pageControl?.recyclePageControlSetCurrentPage(currentIndex)
         }
     }
 
@@ -146,12 +146,12 @@ open class RecycleView: UIView {
     open var minAlpha: CGFloat = 1
 
     /// 指示器
-    open var pageControl: (UIPageControl & RecyclePageControlDelegate)? {
+    open var pageControl: (UIPageControl & RecyclePageControlProtocol)? {
         didSet {
             guard let view = pageControl else { return }
             addSubview(view)
             layoutPageControl()
-            pageControl?.pageControlSetCurrentPage(currentPage: currentIndex)
+            pageControl?.recyclePageControlSetCurrentPage(currentIndex)
         }
     }
 
@@ -303,7 +303,7 @@ open class RecycleView: UIView {
         currentIndex = 0
         visibleRange = NSRange()
         
-        numberOfItems = dataSource?.numberOfItemsInRecycleView(recycleView: self) ?? 0
+        numberOfItems = dataSource?.numberOfItemsInRecycleView(self) ?? 0
         if canLoop {
             showNumberOfItems = numberOfItems == 1 ? 1 : numberOfItems * 3
         } else {
@@ -544,7 +544,7 @@ open class RecycleView: UIView {
             return
         }
         
-        let cell = dataSource?.recycleView(recycleView: self, cellForItemAtIndex: index % numberOfItems)
+        let cell = dataSource?.recycleView(self, cellForItemAt: index % numberOfItems)
         if let cell = cell {
             cell.isUserInteractionEnabled = true
             cell.tag = index % numberOfItems

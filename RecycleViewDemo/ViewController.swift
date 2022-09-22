@@ -59,15 +59,11 @@ class ViewController: UIViewController {
 
 extension ViewController: RecycleViewDelegateFlowlayout, RecycleViewDataSource {
     
-    func numberOfItemsInRecycleView(recycleView: RecycleView) -> Int {
+    func numberOfItemsInRecycleView(_ recycleView: RecycleView) -> Int {
         return recycleView.tag == 100 ? 10 : 3
     }
     
-    func sizeForItemInRecycleView(_ recycleView: RecycleView) -> CGSize {
-        return recycleView.tag == 100 ? CGSize(width: 100, height: 100) : CGSize(width: UIScreen.main.bounds.size.width - 18 * 2, height: 333)
-    }
-    
-    func recycleView(recycleView: RecycleView, cellForItemAtIndex index: Int) -> UIView? {
+    func recycleView(_ recycleView: RecycleView, cellForItemAt index: Int) -> UIView? {
         var cell = recycleView.dequeueReusableCell() as? UIImageView
         if cell == nil {
             cell = UIImageView()
@@ -78,6 +74,10 @@ extension ViewController: RecycleViewDelegateFlowlayout, RecycleViewDataSource {
     
     func recycleView(_ recycleView: RecycleView, didSelectRowAt index: Int) {
         print(index)
+    }
+    
+    func sizeForItemInRecycleView(_ recycleView: RecycleView) -> CGSize {
+        return recycleView.tag == 100 ? CGSize(width: 100, height: 100) : CGSize(width: UIScreen.main.bounds.size.width - 18 * 2, height: 333)
     }
     
 }
