@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		180D8F6D28DC03B500CBE0D7 /* RecyclePageControlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D8F6C28DC03B500CBE0D7 /* RecyclePageControlProtocol.swift */; };
+		186723C528DC6D270023E756 /* RecycleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187705A828B4BB1C00351D29 /* RecycleView.framework */; };
+		186723C628DC6D270023E756 /* RecycleView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 187705A828B4BB1C00351D29 /* RecycleView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		186D612F28D0267C0086D9AE /* RecyclePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D612E28D0267C0086D9AE /* RecyclePageControl.swift */; };
 		187705AC28B4BB1C00351D29 /* RecycleView.docc in Sources */ = {isa = PBXBuildFile; fileRef = 187705AB28B4BB1C00351D29 /* RecycleView.docc */; };
 		187705B228B4BB1C00351D29 /* RecycleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187705A828B4BB1C00351D29 /* RecycleView.framework */; };
@@ -34,6 +36,20 @@
 			remoteInfo = RecycleView;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		186723C728DC6D270023E756 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				186723C628DC6D270023E756 /* RecycleView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		180D8F6C28DC03B500CBE0D7 /* RecyclePageControlProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclePageControlProtocol.swift; sourceTree = "<group>"; };
@@ -86,6 +102,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B67A94464AEC57858827B6B2 /* Pods_RecycleViewDemo.framework in Frameworks */,
+				186723C528DC6D270023E756 /* RecycleView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +258,7 @@
 				187705C028B4BB3200351D29 /* Frameworks */,
 				187705C128B4BB3200351D29 /* Resources */,
 				8733E13F5057F0041A67CD38 /* [CP] Embed Pods Frameworks */,
+				186723C728DC6D270023E756 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
